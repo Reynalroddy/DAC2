@@ -44,27 +44,27 @@ function App() {
     <Router>
       <ScrollToTopRoute />
         <Routes>
-            <Route path={`/`} exact element={<HomeDefault />} />
-            <Route path={`/home-two`} exact element={<HomeTwo />} />
-            <Route path={`/home-three`} exact element={<HomeThree />} />
-            <Route path={`/about`} exact element={<About />} />
-            <Route path={`/team`} exact element={<Team />} />
-            <Route path={`/team-details`} exact element={<TeamDetails />} />
-            <Route path={`/projects`} exact element={<Projects />} />
-            <Route path={`/project-details`} exact element={<ProjectDetails />} />
-            <Route path={`/testimonials`} exact element={<Testimonials />} />
-            <Route path={`/gallery`} exact element={<Gallery />} />
-            <Route path={`/donation`} exact element={<Donation />} />
-            <Route path={`/donation-list`} exact element={<DonationList />} />
-            <Route path={`/donation-details`} exact element={<DonationDetails />} />
-            <Route path={`/donate-now`} exact element={<DonateNow />} />
-            <Route path={`/Events`} exact element={<Events />} />
-            <Route path={`/blog-v-1`} exact element={<BlogVersionOne />} />
-            <Route path={`/blog-v-2`} exact element={<BlogVersionTwo />} />
-            <Route path={`/blog-sidebar`} exact element={<BlogSidebar />} />
-            <Route path={`/blog-details`} exact element={<BlogDetails />} />
-            <Route path={`/contact`} exact element={<Contact />} />
-            <Route path={`/*`} exact element={<Error />} />
+            <Route path={`/`}  element={<HomeDefault />} />
+            <Route path={`/home-two`}  element={<HomeTwo />} />
+            <Route path={`/home-three`}  element={<HomeThree />} />
+            <Route path={`/about`}  element={<About />} />
+            <Route path={`/team`}  element={<Team />} />
+            <Route path={`/team-details`}  element={<TeamDetails />} />
+            <Route path={`/projects`}  element={<Projects />} />
+            <Route path={`/project-details`}  element={<ProjectDetails />} />
+            <Route path={`/testimonials`}  element={<Testimonials />} />
+            <Route path={`/gallery`}  element={<Gallery />} />
+            <Route path={`/donation`}  element={<Donation />} />
+            <Route path={`/donation-list`}  element={<DonationList />} />
+            <Route path={`/donation-details`}  element={<DonationDetails />} />
+            <Route path={`/donate-now`}  element={<DonateNow />} />
+            <Route path={`/Events`}  element={<Events />} />
+            <Route path={`/blog-v-1`}  element={<BlogVersionOne />} />
+            <Route path={`/blog-v-2`}  element={<BlogVersionTwo />} />
+            <Route path={`/blog-sidebar`}  element={<BlogSidebar />} />
+            <Route path={`/blog-details`}  element={<BlogDetails />} />
+            <Route path={`/contact`}  element={<Contact />} />
+            <Route path={`/*`}  element={<Error />} />
         </Routes>
         <ScrollToTop className="scrollUp" smooth top="1500" component={<FaAngleUp />} />
     </Router>
