@@ -9,8 +9,8 @@ export default class ProjectOne extends React.Component {
                 <section className="project-one">
                     <div className="container">
                         <div className="section-title text-center">
-                            <span className="section-title__tagline">Our Causes Events</span>
-                            <h2 className="section-title__title">We Popular To Provide <br /> Best Projects.</h2>
+                            {/* <span className="section-title__tagline">Our Causes Events</span> */}
+                            <h2 className="section-title__title">Our Recent Events</h2>
                         </div>
                         <div className="row">
                             <div className="col-xl-4 col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="100ms">

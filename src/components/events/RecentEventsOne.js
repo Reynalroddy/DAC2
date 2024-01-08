@@ -9,8 +9,8 @@ export default class RecentEventsOne extends React.Component {
                 <section className="recent-event">
                     <div className="container">
                         <div className="section-title text-center">
-                            <span className="section-title__tagline">Our Recent events</span>
-                            <h2 className="section-title__title">We Best Popular To Join <br /> Of Recents.</h2>
+                            {/* <span className="section-title__tagline">Our Recent events</span> */}
+                            <h2 className="section-title__title">Our Recent events.</h2>
                         </div>
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">

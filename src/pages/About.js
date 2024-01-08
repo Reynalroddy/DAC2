@@ -10,7 +10,7 @@ import VideoOne from '../components/video/VideoOne';
 import TestimonialOne from '../components/testimonial/TestimonialOne';
 import BlogOne from '../components/blog/BlogOne';
 import FooterOne from '../common/footer/FooterOne';
-
+import About2 from '../components/about/About2';
 const About = () => {
     return (
         <>
@@ -22,11 +22,12 @@ const About = () => {
             <AboutOne />
             <CounterOne />
             <ProjectOne />
-            <SkillsOne />
+            <About2/>
+            {/* <SkillsOne />
             <TeamOne />
             <VideoOne />
             <TestimonialOne />
-            <BlogOne />
+            <BlogOne /> */}
             <FooterOne />
         </>
     )

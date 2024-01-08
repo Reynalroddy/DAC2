@@ -40,22 +40,19 @@ export default class AboutOne extends React.Component {
                                 <div className="about-one__right">
                                     <div className="about-one__right-content">
                                         <div className="section-title text-left">
-                                            <span className="section-title__tagline">About Us</span>
-                                            <h2 className="section-title__title">Empowering Hearts, Saving Lives.</h2>
+                                            {/* <span className="section-title__tagline">About Us</span> */}
+                                            <h2 className="section-title__title">How You Can Get Involved?</h2>
                                         </div>
-                                        <p className="about-one__text">DACF is a non-profit organization dedicated to improving cardiovascular health and emergency care in our community. We strive to make a meaningful impact by promoting awareness, providing essential training, and supporting research initiatives in cardiovascular health.</p>
-                                        <div className="section-title text-left my-3">
-                                            <span className="section-title__tagline">What We Do</span>
-                    
-                                        </div>
+                                     
+                                 
                                         <ul className="list-unstyled about-one__points">
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-comment"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <h4>Awareness Campaigns.</h4>
-                                                    <p>We actively engage in community outreach programs to raise awareness about cardiovascular health. Through seminars, workshops, and social media campaigns, we educate the general public about risk factors, prevention strategies, and the importance of early intervention</p>
+                                                    <h4>Participate in Training.</h4>
+                                                    <p>Whether you are a healthcare professional or a concerned citizen, our training programs are designed to equip you with life-saving skills. Join our BLS, ACLS, or PALS courses and become part of a growing network of individuals committed to making a difference.</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -63,8 +60,8 @@ export default class AboutOne extends React.Component {
                                                     <span className="icon-comment"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <h4>Training Programs</h4>
-                                                    <p>DACF serves as an authorized American Heart Association (AHA) Training Site, offering certified courses on Basic Life Support (BLS), Advanced Cardiovascular Life Support (ACLS), and Pediatric Advanced Life Support (PALS). Our experienced instructors deliver comprehensive training sessions utilizing state-of-the-art equipment and following AHA guidelines.</p>
+                                                    <h4>Volunteer</h4>
+                                                    <p>DACF welcomes volunteers passionate about promoting cardiovascular health. From assisting with awareness campaigns to supporting our training programs, your contribution can help us reach more people and save more lives.</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -72,7 +69,7 @@ export default class AboutOne extends React.Component {
                                                     <span className="icon-comment"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <h4>Research Initiatives</h4>
+                                                    <h4>Donate</h4>
                                                     <p>We support research projects focused on cardiovascular health, striving to uncover new insights and innovative approaches to prevention, diagnosis, and treatment. By collaborating with healthcare institutions and professionals, we aim to contribute to the advancement of cardiovascular science and improve patient outcomes.</p>
                                                 </div>
                                             </li>
@@ -82,7 +79,7 @@ export default class AboutOne extends React.Component {
                                                     <span className="icon-comment"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <h4>Community Partnerships</h4>
+                                                    <h4> Spread the Word:</h4>
                                                     <p>DACF believes in the power of collaboration. We actively seek partnerships with healthcare organizations, government agencies, academic institutions, and community groups to create a united front in combating cardiovascular diseases. Together, we can maximize our impact and strengthen the healthcare ecosystem.</p>
                                                 </div>
                                             </li>

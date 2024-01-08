@@ -23,8 +23,8 @@ export default class CounterOne extends React.Component {
                     <div className="counter-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/counter-one-bg.jpg)'}}></div>
                     <div className="container">
                         <div className="section-title text-center">
-                            <span className="section-title__tagline">Our Counter Now</span>
-                            <h2 className="section-title__title">We Popular To Provide <br /> Years Experience.</h2>
+                            {/* <span className="section-title__tagline">Our Coun</span> */}
+                            <h2 className="section-title__title">Our Statistics.</h2>
                         </div>
                         <div className="row">
                             <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
@@ -68,13 +68,13 @@ export default class CounterOne extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-xl-12">
                                 <div className="counter-one__btn-box text-center">
                                     <a href="about.html" className="thm-btn counter-one__btn">Read More</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </>
